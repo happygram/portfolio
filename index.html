@@ -40,9 +40,6 @@
             <li>
                 <a href="#skills">Skills</a>
             </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
         </ul>
     </header>
     <!-- End header -->
@@ -51,7 +48,6 @@
         <div id="lead-content">
             <h1>Seong-Beom Jeong</h1>
             <h2>DevOps Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -86,26 +82,36 @@
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
         	<div data-date="2017/01 ~ ">
-                <h3>Employer Name</h3>
-                <h4>아키텍처실 - 시스템 관리, 인프라, 개발</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+                <h3>인프라</h3>
+	                <p>시스템 운영 - Linux(CentOS), Docker</p>
+	                <p>통합 계정 관리 - LDAP</p>
+	                <p>권한 관리 - Redmine, SVN, Jenkins</p>
+	                <p>SVN, Database 백업, 제품 릴리즈 및 배포 자동화 - Jenkins</p>
+	            <br>
+	            
+                <h3>개발</h3>
+	                <p>화면 소스 제너레이션 개발/유지보수 - Java</p>
+	                <p>Eclipse Plug-In 개발/유지보수 - Java</p>
+	                <p>이행 시스템 유지보수 - Spring Boot</p>
+	                <p>연구소 포탈 개발/유지보수 - Spring Boot</p>
+	             <br>
+	             
+	             <h3>사이트 지원</h3>
+	             	<p>제품 설치</p>
+	             	<p>필요 파일 전달</p>
             </div>
         
             <div data-date="2016/01 ~ 2016/12">
-                <h3>정직원</h3>
-                <h4>화면 설계 도구 개발</h4>
+                <h3>화면 설계 도구 개발 - 정직원</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                	화면 설계 도구 개발/유지보수, 고객 지원
                 </p>
             </div>
             
             <div data-date="2015/09 ~ 2015/12">
-                <h3>인턴</h3>
-                <h4>화면 설계 도구 개발</h4>
+                <h3>화면 설계 도구 개발 - 인턴</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                	화면 설계 도구 개발
                 </p>
             </div>
         </div>
@@ -147,24 +153,15 @@
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
         <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
+			<!-- End .project-image -->
+			<div>
+				<h3>교보 생명 차세대 프로젝트</h3>
+				<small>2016/09~2016/12</small>
+				<p>화면 설계 도구 POC</p>
+			</div>
+			<!-- End .project-info -->
+		</div>
+		<!-- End .project -->
     </div>
     <!-- End #projects -->
 
@@ -195,8 +192,11 @@
 								<li>jQuery</li>
 								<li>Thymeleaf</li>
 								<li>JSP</li>
-		        				<li>Spring Boot</li>
+								<li>handlebars</li>
 							</ul>
+							<ul>
+		        				<li>Spring Boot</li>
+		        			</ul>
 						</td>
 	       			</tr>
 	       			<tr>
@@ -245,6 +245,7 @@
 	        				<ul>
 			            		<li>Apache</li>
 			            		<li>Tomcat</li>
+			            		<li>LDAP</li>
 							</ul>
 						</td>
 	       			</tr>
@@ -257,19 +258,12 @@
 						</td>
 	       			</tr>
 	       			<tr>
-	       				<td><h5>Configuration Management</h5></td>
+	       				<td><h5>Repository</h5></td>
 	       				<td>
 	        				<ul>				
 			            		<li>SVN</li>
 	            				<li>Git</li>
-							</ul>
-						</td>
-	       			</tr>
-	       			<tr>
-	       				<td><h5>Infrastructure</h5></td>
-	       				<td>
-	        				<ul>				
-			            		<li>LDAP</li>
+	            				<li>Artifactory</li>
 							</ul>
 						</td>
 	       			</tr>
@@ -287,26 +281,12 @@
     </div>
     <!-- End #skills -->
 
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
-
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 Seong-Beom Jeong
+                        Copyright &copy; 2019 Seong-Beom Jeong
                     </p>
                 </div>
                 <div class="col-sm-2 top">
